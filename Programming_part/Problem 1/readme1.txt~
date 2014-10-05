@@ -1,0 +1,16 @@
+Program 3 :Reverse String
+
+
+ReverseString.c:
+In this object, Input is taken from the user for its complete name. The memory is dynamically allocated using the malloc function so that user can enter n number of middle names and then using the strtok function to seperate the input name into tokens and then pass each of this tokens in the function Rev_string inorder to reverse the string.
+
+Rev_string.c:
+This function takes a input of tokens(character array) and then reverse the string using the swap algorithm using a temporary variable and then returns the reversed string.
+
+Reverse.h:
+It is the user defined header file which defines the function Rev_string.
+
+Makefile:
+The makefile runs this program using commands
+make
+make run
